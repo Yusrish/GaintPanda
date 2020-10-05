@@ -9,4 +9,6 @@ body{
 .column{
     width: 600px;
     margin: 40px auto;
+    padding: 10px;
+    border: double 10px green;
 }
