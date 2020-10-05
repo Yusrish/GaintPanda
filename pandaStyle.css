@@ -9,4 +9,16 @@ body{
 .column{
     width: 600px;
     margin: 40px auto;
+    padding: 10px;
+    border: double 10px green;
+}
+p{
+    border: solid 3px gray;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 60px;
+    font-family: Georgia;
 }
