@@ -101,6 +101,9 @@
             <button class="button" onclick="changeBgColorToBlue()">Blue</button>
             <button class="button" onclick="changeBgColorToBrown()">Brown</button>
             <button class="button" onclick="changeBgColorToWhite()">Reset</button> <br><br>
+            3. Change font size <br>
+            <button class="button" onclick="increaseFontSize()">Increase font size</button> 
+            <button class="button" onclick="decreaseFontSize()">Descrease font size</button> 
         </p>  
     </div>
     </body>
@@ -128,6 +131,14 @@
         function changeBgColorToWhite(){
            var bgColor = document.getElementsByClassName('bodyTag')[0];
            bgColor.style.backgroundColor = '#254E58';          
+        }
+        function increaseFontSize() {
+            // alert("Change font size") ;
+            document.getElementsByClassName("bodyTag")[0].style.fontSize = "large";
+        }
+        function decreaseFontSize() {
+            // alert("Change font size") ;
+            document.getElementsByClassName("bodyTag")[0].style.fontSize = "small";
         }
     </script>
     </body>
