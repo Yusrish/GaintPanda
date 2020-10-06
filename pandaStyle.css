@@ -16,9 +16,9 @@ background-color: #254E58 ;
     background-color: #88BDBC;
 }
 p{
-    border: solid 5px #6E6658;
+    /* border: solid 5px #6E6658; */
     padding: 5px;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 h1{
