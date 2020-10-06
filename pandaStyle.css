@@ -36,3 +36,21 @@ h1{
     display: inline-block;
     font-size: 16px;
   }
+
+  table {
+    border-collapse: collapse;      
+  }
+
+  th, td {
+    border: 1px solid black;
+    text-align: center;   
+    padding: 5px;    
+  }
+
+  th {
+    background-color : gray;
+  }
+
+  td {
+    background-color : lightgrey;
+  }
