@@ -1,19 +1,22 @@
 img{
     width: 100%;
+    border: solid 3px #4F4A41;
 }
 
 body{
     font-family: Arial;
+    background-color: #254E58 ;
 }
 
 .column{
-    width: 600px;
-    margin: 40px auto;
-    padding: 10px;
-    border: double 10px green;
+    width: 650px;
+    margin: 0px auto;
+    padding: 70px;
+    border: double 20px #112D32;
+    background-color: #88BDBC;
 }
 p{
-    border: solid 3px gray;
+    border: solid 5px #6E6658;
     padding: 5px;
     border-radius: 8px;
 }
@@ -21,6 +24,7 @@ p{
 h1{
     font-size: 60px;
     font-family: Verdana;
+    color: #112D32;
 }
 
 table {
