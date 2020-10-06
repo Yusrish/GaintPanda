@@ -3,7 +3,7 @@ img{
 }
 
 body{
-    font-family: Arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .column{
@@ -19,6 +19,6 @@ p{
 }
 
 h1{
-    font-size: 60px;
-    font-family: Verdana;
+    font-size: 40px;
+    font-family: serif;
 }
